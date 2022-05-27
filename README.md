@@ -13,3 +13,9 @@ dotnet new mvc --name jjweb
 dotnet tool install --global dotnet-gitignore --version 1.2.1
 dotnet-gitignore
 ```
+
+## Create K8s artifacts
+
+```powershell
+az aks draft create
+```
