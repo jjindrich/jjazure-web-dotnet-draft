@@ -19,3 +19,13 @@ dotnet-gitignore
 ```powershell
 az aks draft create
 ```
+
+## Configure GitHub Actions
+
+Must install GH CLI first !
+
+```powershell
+choco install gh
+
+az aks draft setup-gh
+```
