@@ -22,10 +22,14 @@ az aks draft create
 
 ## Configure GitHub Actions
 
-Must install GH CLI first !
+Prereq
+- Must install GH CLI first
+- create Azure resource group
 
 ```powershell
 choco install gh
 
 az aks draft setup-gh
+
+az aks draft generate-workflow
 ```
